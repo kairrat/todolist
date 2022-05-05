@@ -1,0 +1,172 @@
+body    {
+    box-sizing: border-box;
+    font-family: 'Kavivanar', cursive;
+    font-weight: 400;
+    color: black;
+    margin: 0;
+    padding: 0;
+    background:#3F72AF;
+}
+
+.flex-wrapper    {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;    
+    width: 100%;
+}
+.flex-container {
+    background-color: #ffffff;
+    max-width: 750px;
+    width: 100%;
+    border-radius: 15px;
+    min-height: 100vh;
+}
+.add-todo-wrapper   {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px auto auto auto;
+    max-width: 550px;
+    width: 100%;
+    height: 80px;
+}
+.title  {
+    padding-top: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.input-wrapper{
+display: flex;
+align-items: center;
+justify-content:center ;
+
+
+}
+.user_input   {
+    border: 0;
+    outline: none;
+    height: 55px;
+    width: 380px;
+    background-color: #648ab8;
+    padding-left: 25px;
+    color: #f3eeee;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+
+#add-task-submit    {
+    height: 57px;
+    outline: none;
+    border: none;
+    background-color: #1556a5;
+    color: #f3eeee;
+    border-radius: 3px;
+    cursor: pointer;
+}
+#add-task-submit :hover{
+
+
+    cursor: pointer;
+}
+::-webkit-input-placeholder {
+    color: #f3eeee;
+
+}
+#add-task-btn {
+    border: 1px solid #3F72AF;
+background: #3F72AF;
+height: 47px;
+width: 40px;
+cursor: pointer;
+border-radius: 3px;
+}
+.subtitle   {
+    display: flex;
+    margin: 65px auto 20px  auto;
+    align-items: center;
+    justify-content:center ;
+    font-size:28px;
+}
+
+
+
+.todo-item  {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    min-height: 50px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #648ab8;
+}
+
+.btn-edit   {
+    height: 25px;
+    width: 35px;
+    outline: none ;
+    border: none;
+    border-radius: 5px;
+    transition: .3s ease;
+    font-family: 'Kavivanar', cursive;
+
+
+}
+
+.btn-delete {
+    margin-left: 5px;
+    width: 35px;
+    height: 25px;
+    outline: none ;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    background-color: rgb(255, 0, 0);
+    font-family: 'Kavivanar', cursive;
+
+}
+
+.btn-edit:hover{
+    cursor: pointer;
+    transition: 0.3s ease;
+    background: #dedede;
+}
+.btn-delete:hover{
+    cursor: pointer;
+    transition: 0.3s ease;
+    background-color: rgb(235, 0, 0);
+
+
+}
+
+
+
+.description    {
+    font-family: 'Nunito', sans-serif;
+    font-size:20px;
+    padding-left: 25px;
+    color: #f3eeee;
+}
+.buttons    {
+    display: flex;
+    align-items: center;
+    padding-right: 5px;
+}
+
+.todo-task  {
+
+outline: none;
+border: none;
+background: none;
+color: #f3eeee;
+
+font-size: 16px;
+padding-left: 25px;
+}
